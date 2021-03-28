@@ -4,8 +4,9 @@ metadata:
   name: nginx-web-ingress
 spec:
   rules:
-  - host: webserver1.192.168.200.20.nip.io
-http: paths:
+  - host: webserver1.192.168.0.1.nip.io
+    http:
+      paths:
       - path: /
         backend:
           serviceName: nginx-web
