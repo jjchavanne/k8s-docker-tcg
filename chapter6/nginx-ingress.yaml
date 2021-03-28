@@ -4,7 +4,7 @@ metadata:
   name: nginx-web-ingress
 spec:
   rules:
-  - host: webserver1.192.168.0.1.nip.io
+  - host: webserver1.<host-ip-REPLACE_ME>.nip.io
     http:
       paths:
       - path: /
