@@ -10,4 +10,8 @@ data:
       protocol: layer2
       addresses:
       - 172.17.200.100-172.17.200.125
-
+ # Add this in the middle of the chapter - Adding mutiple IP pools     
+   # - name: subnet-201
+   #   protocol: layer2
+   #   addresses:
+   #   - 172.17.201.100-172.17.201.125
